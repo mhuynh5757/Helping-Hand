@@ -2,7 +2,6 @@ void setup()
 {
   Serial.begin(115200);
   Serial.print("Ready");
-  Serial.print("Ready");
   pinMode(13, OUTPUT);
   digitalWrite(13, LOW);
 }
